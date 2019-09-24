@@ -9,6 +9,8 @@
     <Accordion />
     <hr />
     <FlipCard />
+    <hr />
+    <MyAccordion />
   </div>
 </template>
 
@@ -18,6 +20,7 @@ import Book from "./components/Book";
 import List from "./components/List";
 import Accordion from "./components/Accordion";
 import FlipCard from "./components/FlipCard";
+import MyAccordion from "./components/MyAccordion";
 
 export default {
   name: "App",
@@ -26,7 +29,8 @@ export default {
     Book,
     List,
     Accordion,
-    FlipCard
+    FlipCard,
+    MyAccordion
   }
 };
 </script>
